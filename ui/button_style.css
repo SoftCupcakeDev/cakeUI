@@ -1,0 +1,83 @@
+/*글자 기본 폰트 지정*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+/*버튼 스타일(배경색 거의 없는거*/
+.cupBtn_bn_b{background:none; border: none; border-radius: 100px; color: rgb(82, 172, 232);  font-family: 'NanumGothic'; font-size: 30px; width: 75; height: 35; margin-top: 5px;}
+.cupBtn_bn_m{background:none; border: none; border-radius: 100px; color: rgb(82, 172, 232);  font-family: 'NanumGothic'; font-size: 20px; width: 35; height: 15; margin-top: 5px;}
+.cupBtn_bn_s{background:none; border: none; border-radius: 100px; color: rgb(82, 172, 232); font-family: 'NanumGothic'; font-size: 10px; width: 30; height: 15; margin-top: 5px;}
+
+/*다크모드/라이트모드 지원되는 버튼 디자인*/
+/*다크모드 버튼 디자인*/
+.cupBtn_b_light{
+    font-family: 'NanumGothic';
+    margin-top: 5px;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    border:1px solid rgb(0, 0, 0);
+    color: rgb(40, 40, 40);
+    font-size: 15px;
+    text-align: center;
+}
+.cupBtn_m_light{
+    font-family: 'NanumGothic';
+    margin-top: 5px;
+    width: 50px;
+    height: 25px;
+    border-radius: 25px;
+    background: rgb(255, 255, 255);
+    border:1px solid rgb(0, 0, 0);
+    color: rgb(42, 32, 32);
+    font-size: 7px;
+    text-align: center;
+}
+.cupBtn_s_light{
+    font-family: 'NanumGothic';
+    margin-top: 5px;
+    width: 15px;
+    height: 7px;
+    border-radius: 7px;
+    background: rgb(255, 255, 255);
+    border:1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 4px;
+    text-align: center;
+}
+/*라이트 모드버튼 디자인*/
+.cupBtn_b_dark{
+    font-family: 'NanumGothic';
+    margin-top: 5px;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background:black;
+    border:1px solid rgb(255, 255, 255);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.cupBtn_m_dark{
+    font-family: 'NanumGothic';
+    margin-top: 5px;
+    width: 50px;
+    height: 25px;
+    border-radius: 25px;
+    background: black;
+    border:1px solid rgb(255, 255, 255);
+    color: white;
+    font-size: 7px;
+    text-align: center;
+}
+.cupBtn_s_dark{
+    font-family: 'NanumGothic';
+    margin-top: 5px;
+    width: 15px;
+    height: 7px;
+    border-radius: 7px;
+    background:black;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    font-size: 4px;
+    text-align: center;
+}

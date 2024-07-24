@@ -1,0 +1,10 @@
+.black{
+    background-color: black;
+}
+.light{
+    background-color: white;
+}
+.rainbow{
+    background: #c31432; /* fallback for old browsers */
+    background: linear-gradient(to right, #c31432, #240b36);
+}
